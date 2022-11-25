@@ -7,9 +7,11 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
     <br />
-    <div class="mx-auto" style="width: 250px">
-        <asp:Label runat="server" CssClass="h2" ID="lbltitulo"></asp:Label>
+
+        <div class="text-center mb-3">
+       <asp:Label runat="server" CssClass="h2 text-center text-primary" ID="lbltitulo"></asp:Label>
     </div>
+    
     <form runat="server" class="h-100 d-flex align-items-center justify-content-center">
         <div>
             <div class="mb-3">
